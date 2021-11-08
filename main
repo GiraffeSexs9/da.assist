@@ -27,7 +27,7 @@ Tab1:Textbox("Prediction 0.165-0.235","0.157",function(bool)
     DaHoodSettings.Prediction = bool
 end)
 
-Tab1:Dropdown("Silent Aim Part",{"Head","Humanoid","UpperTorso"},function(value)
+Tab1:Dropdown("Silent Aim Part",{"Head","HumanoidPart","UpperTorso"},function(value)
     Aiming.AimPart = value
 end)
 
