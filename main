@@ -5,8 +5,6 @@ local Window = Library:Create("Da Assist",".gg/jgVxsEG9tb")
 
 local Tab1 = Window:Tab("Aiming",true)
 
-Tab1:Label("Silent Aim")
-
 Tab1:Toggle("Toggle Silent Aim",function(bool)
     DaHoodSettings.SilentAim = bool
 end)
