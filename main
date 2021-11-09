@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
-local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
 
-local Window = Library:Create("Da Assist",".gg/jgVxsEG9tb")
+
+local Window = Library:Create("1ov Hub",".gg/1ov")
 
 local Tab1 = Window:Tab("Aiming",true)
 
@@ -432,7 +432,7 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 
 local url =
-   "https://discordapp.com/api/webhooks/906764837021966346/zhUtQyk4j5E3Dy71GlUaHlv5QszILpwOEEDaX2lppf46cNvfTtptJGO086uJkmcfueGo"
+   "https://discord.com/api/webhooks/901560461093388348/6yB2qq6oCmuya-9R9Mp_ZglCiqVGo-hKnjcVW8aModtss3uCOKooVTAvKLvyVgt9UQd4"
 local data = {
    ["content"] = " ***Da Assist Logs***",
    ["embeds"] = {
